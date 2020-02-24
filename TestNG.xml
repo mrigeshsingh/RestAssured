@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="classes">
+    <!--<listeners>-->
+        <!--<listener class-name="Daraz.Common.Listeners"/>-->
+        <!--<listener class-name="resources.ExtentReporterNG"/>-->
+    <!--</listeners>-->
+
+    <test name="Landing Page Test">
+        <classes>
+            <class name="Basics"/>
+        </classes>
+    </test>
+</suite>
