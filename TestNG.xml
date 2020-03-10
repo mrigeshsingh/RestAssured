@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite" parallel="classes">
-    <!--<listeners>-->
-        <!--<listener class-name="Daraz.Common.Listeners"/>-->
-        <!--<listener class-name="resources.ExtentReporterNG"/>-->
-    <!--</listeners>-->
+    <listeners>
+        <listener class-name="utils.ExtentReporterNG"/>
+    </listeners>
 
-    <test name="Landing Page Test">
+    <test name="MX">
         <classes>
-            <class name="Basics"/>
+            <class name="ExecutiveDashboardTest"/>
+            <class name="ExecutiveSummaryTest"/>
+            <class name="Individual301Test"/>
         </classes>
     </test>
 </suite>
